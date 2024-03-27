@@ -14,5 +14,7 @@ public class reverse_num {
             System.out.print(last_digit);
         }
 
+        sc.close();
+
     }
 }
