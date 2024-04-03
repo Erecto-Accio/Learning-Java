@@ -1,4 +1,4 @@
-public class binomial_coeffiecient {
+public class binomial_coefficent {
     public static int factorial(int a) {
         int fact = 1;
         for (int i = 1; i <= a; i++) {
