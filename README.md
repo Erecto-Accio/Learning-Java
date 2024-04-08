@@ -118,3 +118,66 @@
         	
     }
 
+
+<br />
+
+# প্রথম "Hello,World!" লেখা
+
+যেহেতু আমাদের কোড লেখার জায়গা তৈরি হয়ে আছে । আমি আশা করবো আপনাদের ফাইল বানানো এবং সেভ এর মধ্যে কোন সমস্যা নাই । আমাদের বানানো ফাইল টি যদি আমরা vscode  দিয়ে ওপেন করি তাইলে দেখতে পাবো  এরকম কিছু
+
+*HelloWorld.java >>* 
+
+    public  class  HelloWorld {
+    
+    public  static  void  main(String[] args) {
+    
+    }
+    
+    }
+এবার আমরা এই  ফাঁকা জায়গার মধ্যে লিখবো  `System.out.println("Hello,World!);`
+
+    public  static  void  main(String[] args) {
+    
+    System.out.println("Hello,World!);
+    
+    }
+তাহলে আমাদের কোড টা হবে এরকম কিছুটা 
+
+    public  class  HelloWorld {
+    
+	    public  static  void  main(String[] args) {
+    
+			    System.out.println("Hello,World!");
+			}
+    
+    }
+এবার আমরা যদি Run | Debug  এর ওখানে Run ক্লিক করলে । vscode  এ টার্মিনাল  ওপেন হয়ে দেখাবে
+
+>  Hello,World!
+
+যেহেতু আমরা দেখতে পেয়েছি কিভাবে আমরা স্ক্রিন এ আমাদের কোড এর অউটপুট দেখতে পাচ্ছি  তাই আমরা এবার আমাদের নাম , বাবার নাম ,  মা'র নাম এবং আমরা বর্তমানে কোন শ্রেণিতে আছি তাই প্রিন্ট করতে হবে । 
+
+    public  class  HelloWorld {
+    
+    public  static  void  main(String[] args) {
+    
+    System.out.println("My name is: Tousif Tasrik");
+    
+    System.out.println("My father's name: father's name");
+    
+    System.out.println("My mother's name: Mother's name");
+    
+    System.out.println("I am studying CSE at international University of Scholars");
+    
+      
+    
+    }
+    
+    }
+
+> output :  
+> My name is: Tousif Tasrik 
+> My father's name: father's name 
+> My mother's name: Mother's name 
+> I am studying CSE at international University of Scholars
+
