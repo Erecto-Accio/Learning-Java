@@ -176,8 +176,8 @@
     }
 
 > output :  
-> My name is: Tousif Tasrik 
-> My father's name: father's name 
-> My mother's name: Mother's name 
-> I am studying CSE at international University of Scholars
+> My name is: Tousif Tasrik <br/>
+> My father's name: father's name <br/>
+> My mother's name: Mother's name <br />
+> I am studying CSE at international University of Scholars <br />
 
