@@ -283,9 +283,4 @@ All Java components require names. Names used for classes, variables, and method
 >Double Value: 57656.22 <br />
 >Single Character: c <br />
 >Multi Character: Hello,World <br />
-> output :  
-> My name is: Tousif Tasrik <br/>
-> My father's name: father's name <br/>
-> My mother's name: Mother's name <br />
-> I am studying CSE at international University of Scholars <br />
 
