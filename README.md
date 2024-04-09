@@ -21,7 +21,7 @@
 
 	- [২.কোড লেখার জায়গা তৈরি](#setup-java)
 
-	- [৩.প্রথম "Hello,World" লেখা](#helloworld)
+	- [৩.প্রথম "Hello,World" লেখা](#hello-world)
 
 	- [৪.ভ্যারিয়েবল এবং ডেটা টাইপ নিয়ে যত কথা](#variable-and-data-types)
 
