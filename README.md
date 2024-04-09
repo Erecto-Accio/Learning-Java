@@ -174,7 +174,115 @@
    }
     
 }
+<br />
+<a name="variable-and-data-type> </a>
 
+# ভ্যারিয়েবল এবং ডেটা টাইপ নিয়ে যত কথা
+
+আমাদের আগের সেকশন এ আমরা দেখেছি কিভাবে আমরা কিছু বার্তা প্রিন্ট করতে পারি । একে একে আমরা অনেক কিছুই প্রিন্ট করে ফেলেছি । এবার আমরা দেখবো আমাদের ভ্যারিয়েবল এবং ডাটা টাইপ । আমরা যদি সি করে থাকি তাহলে আমাদের জানা থাকার কথা ডাটা টাইপ গুলো কি কি হতে পারে । চলেন এবার আলোচনায় আসা যাক । 
+
+###  ভ্যারিয়েবল কি ? 
+আমাদের বাসায় তহ মসলা থাকেই । আমরা তহ গুঁড়া মসলা গুলো ফেলায় রাখি না আমরা কিছু পাত্রে সংরক্ষণ করি । যেমন ধরেন জিরার গুঁড়া , মরিচের গুঁড়া ইত্যাদি মসলার গুঁড়া আমরা বিভিন্ন কৌটায় রাখি । আমাদের এরকম ভ্যালু রাখার জন্য ও জায়গা লাগে । আমরা এই জন্য ব্যবহার করি ভ্যারিয়েবল টার্ম টা । ধরেন আপনাকে  আমি  এক কেজি গরুর মাংস দিলাম আপনি  একেটা পলিথিন এ করে মাংস গুলো  ফ্রিজ এ রেখে দিলেন । তাহলে কোথায় রাখলেন ? পলিথিন এ তাহলে আমাদের ভ্যারিয়েবল হলো পলিথিন । আর মাংস টা আমাদের ভ্যালু । আশা করি বুঝতে পেরেছেন । 
+
+
+একটা নতুন ফাইল তৈরি করেন নাম দেন আপনার ইচ্ছা মতো আবার ফাইল এর নাম এ স্পেস দিয়েন না । যেমনঃ variable and data type.java  এমন দিলে Error দিবে । তাই ফাইল এর নাম  এমন দিবেন যে কেউ নাম পড়েও যাইতে কিছু ধারণা নিতে পারবে আসলে কি লেখা আছে । 
+
+এই লেখাটা পড়তে পারেনঃ 
+
+All Java components require names. Names used for classes, variables, and methods are called identifiers. In Java, there are several points to remember about identifiers. They are as follows -
+
+**Step 1** − All identifiers should begin with a letter (A to Z or a to z), currency character ($) or an underscore (_).
+
+**Step 2** − After the first character, identifiers can have any combination of characters.
+
+**Step 3** − A keyword cannot be used as an identifier.
+
+**Step 4** − Most importantly, identifiers are case sensitive.
+
+**Step 5** − Examples of legal identifiers: age, $salary, _value, __1_value.
+
+**Step 6** − Examples of illegal identifiers: 123abc, -salary.  
+
+জাভার কিছু কি-ওয়ার্ড  আছে যেগুলো আমরা আমাদের ভ্যারিয়েবল এর নাম দিতে পারবো না । 
+< - https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html - > 
+
+### ডাটা টাইপ 
+ডাটা টাইপ নিয়ে পরার আগে আমাদের কিছু বিষয় জানা দরকার  । আমরা সবাই জানি পূর্ণসংখ্যা সম্পর্কে । যেখানে কোন দশমিক সংখ্যা থাকবে না তাই মুলত পূর্ণসংখ্যা । আবার দশমিক সংখ্যার সম্পর্কেও জানি যেখানে সংখ্যা কিছু টা এমন দেখায় ১৫.৫ । যদি বলি আমরা একটা ক্যারেক্টার শুধু   রাখতে পারি  তাহলে শুধু একটাই হবে যেমনঃ a । আবার আমরা বহু-ক্যারেক্টার ও রাখতে পারি যেমনঃ "Hello World" । এরপর আমরা ছোট বেলায় True / False  করেছি প্রশ্নে কোনটা ভুল আর কোনটা ঠিক তাই শুধু লিখতে হবে । আমরা এই কয়েকটা ডাটা টাইপ নিয়েই কাজ করবো । 
+
+তাহলে আমরা জানলাম কি কি সম্পর্কে তা হচ্ছেঃ
+
+ - পূর্ণসংখ্যা
+ - দশমিক সংখ্যা 
+ - একটা ক্যারেক্টার 
+ - বহু-ক্যারেক্টার
+ - সত্যমিথ্যা 
+
+এবার আমাদের ইংলিশ টার্ম টার সাথে পরিচয় হওয়া দরকার  । 
+
+- Integer ( পূর্ণসংখ্যা )
+- Float ( দশমিক সংখ্যা )
+- Double ( দশমিক সংখ্যা  কিন্তু বড় সাইজ এর রাখা যায় )
+- Single Character ( একটা ক্যারেক্টার  ) 
+- Simply we can say String ( বহু-ক্যারেক্টার )
+- Boolean ( সত্যমিথ্যা  )
+
+এবার আমরা  নতুন ফাইল তৈরি করি । আপনারা একটা ফোল্ডার এ সব ফাইল রেখে দিয়েন এতে করে সব কোড একজায়গায় থাকবে । এরপর ওই ফোল্ডার বানানো হইলে right click  করে open with  vscode দিবেন । তাহলে ওই ফাইল টা নিয়ে vscode  ওপেন হবে । 
+
+এবার আমাদের কোড  সুপরিচিত কোড লিখে দেই 
+
+    public  class  variable_data_type {
+    
+    public  static  void  main(String[] args) {
+    
+    }
+    
+   }
+এরপর 
+
+    public  class  variable_data_type {
+    
+    public  static  void  main(String[] args) {
+    
+    int  num  =  567;
+    float  num2  =  5.67f;
+    double  num3  =  57656.22;
+    char  single_char  =  'c';
+    String  multi_char  =  "Hello,World";
+    
+ 
+       }
+   }
+
+লিখার পরে আমরা প্রিন্ট করে দেখি  
+
+    public  class  variable_data_type {
+    
+    public  static  void  main(String[] args) {
+    
+    int  num  =  567;
+    float  num2  =  5.67f;
+    double  num3  =  57656.22;
+    char  single_char  =  'c';
+    String  multi_char  =  "Hello,World";
+    
+    
+    System.out.println("Integer Value: "  +  num);
+    System.out.println("Floating Value: "  +  num2);
+    System.out.println("Double Value: "  +  num3);
+    System.out.println("Single Character: "  +  single_char);
+    System.out.println("Multi Character: "  +  multi_char);
+    
+    }
+    
+  } 
+
+
+আউটপুটঃ  
+> Integer Value: 567 <br />
+>Floating Value: 5.67 <br />
+>Double Value: 57656.22 <br />
+>Single Character: c <br />
+>Multi Character: Hello,World <br />
 > output :  
 > My name is: Tousif Tasrik <br/>
 > My father's name: father's name <br/>
