@@ -176,7 +176,7 @@
     
 }
 <br />
-<a name="variable-and-data-type> </a>
+<a name="variable-and-data-type"> </a>
 
 # ভ্যারিয়েবল এবং ডেটা টাইপ নিয়ে যত কথা
 
