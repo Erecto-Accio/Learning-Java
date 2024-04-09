@@ -272,6 +272,7 @@ All Java components require names. Names used for classes, variables, and method
     System.out.println("Double Value: "  +  num3);
     System.out.println("Single Character: "  +  single_char);
     System.out.println("Multi Character: "  +  multi_char);
+    System.out.println("Boolean Value: " + bool_value);
     
     }
     
@@ -284,6 +285,7 @@ All Java components require names. Names used for classes, variables, and method
 >Double Value: 57656.22 <br />
 >Single Character: c <br />
 >Multi Character: Hello,World <br />
+>Boolean Value: true <br />
 
 তাহলে আমাদের কাছে জিনিস টা অনেকটাই পরিষ্কার । এখন আমরা জানি যে আমাদের পূর্ণসংখ্যা , দশমিক সংখ্যা , একটা ক্যারেক্টার এর জন্য কি কি ডাটা টাইপ ব্যবহার করতে হবে । 
 
